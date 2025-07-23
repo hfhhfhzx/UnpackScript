@@ -12,3 +12,6 @@
 - 其次，准备好你想要解包的Boot镜像，并将其置于脚本所在目录中，确保它的名字为“boot.img”
 
 - 最后，以shell/root的身份执行此脚本。啪的一下，一个名叫“kernel的文件就出现在脚本所在的目录中了”
+
+# 获取
+[github](https://github.com/hfhhfhzx/UnpackScript/blob/main/main.sh)
