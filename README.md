@@ -2,7 +2,7 @@
 如你所见，这是个烂透了的Android脚本
 
 # 这是什么?
-一个使用libmagiskboot.so来解包Boot镜像，获取其中的Kernel文件<br>
+一个使用libmagiskboot.so来解包Boot镜像，获取其中的Kernel文件的脚本<br>
 
 是的，它只有这些作用。甚至需要一个第三方库！
 
