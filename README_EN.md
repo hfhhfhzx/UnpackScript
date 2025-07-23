@@ -1,5 +1,8 @@
 Warning of complete machine translation ⚠️
 
+Other Languages
+[简体中文](./README.md)
+
 # UnpackScript
 
 As you can see, this is a completely lousy Android script. 
@@ -16,7 +19,7 @@ Yes, it only has these functions. Even a third-party library is needed!
 
 - Finally, execute this script as shell/root. Bang! A file named "kernel" appears in the directory where the script is located. 
 
-# Qusetisons and Answers
+# Questions and Answers
 
 Q: Why should this script be executed as shell/root? 
 
