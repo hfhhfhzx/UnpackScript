@@ -7,22 +7,6 @@ user=$(whoami)
 echo "当前用户为$user"
 echo " "
 
-error=0
-
-if [ ! -f "$path/boot.img" ]; then
-  echo "错误：未找到boot.img"
-  error=1
-fi
-
-if [ ! -f "$path/libmagiskboot.so" ]; then
-  echo "错误：未找到libmagiskboot.so"
-  error=1
-fi
-
-if [ "$error" -gt 0 ]; then
-  exit 1
-fi
-
 case "$user" in
     "shell")
         cp "$path/boot.img" /data/local/tmp
@@ -41,11 +25,11 @@ case "$user" in
         exit
         ;;
     "system")
-        echo "警告⚠️，不支持"
+        echo "当前不支持该用户"
         exit
         ;;
     *)
-        echo "用户权限不足"
+        echo "该用户权限不足"
         exit
         ;;
 esac
