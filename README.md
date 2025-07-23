@@ -11,7 +11,19 @@
 
 - 其次，准备好你想要解包的Boot镜像，并将其置于脚本所在目录中，确保它的名字为“boot.img”
 
-- 最后，以shell/root的身份执行此脚本。啪的一下，一个名叫“kernel的文件就出现在脚本所在的目录中了”
+- 最后，以shell/root的身份执行此脚本。啪的一下，一个名叫“kernel”的文件就出现在脚本所在的目录中了
+
+# 部分常见问题与回答
+Q:为什么要以shell/root的身份来执行这个脚本？
+
+A:想要解包Boot镜像，需要授予libmagiskboot.so执行权限。普通用户没这个权限，我也不了解System用户。
+
+Q:为什么要保持libmagiskboot.so和Boot镜像文件名一定?
+
+A:这是个缺陷，后面可能修。
+
+# 注意
+脚本中的cp命令采用了交互式操作，尽量不要使用非交互式方式执行脚本
 
 # 获取
-[github](https://github.com/hfhhfhzx/UnpackScript/blob/main/main.sh)
+- [github](https://github.com/hfhhfhzx/UnpackScript/blob/main/main.sh)
