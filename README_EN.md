@@ -1,7 +1,7 @@
 Warning of complete machine translation ⚠️
 
 Other Languages
-[简体中文](./README.md)
+- [简体中文](./README.md)
 
 # UnpackScript
 
