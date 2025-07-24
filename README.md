@@ -15,14 +15,15 @@
 
 - 最后，以shell/root的身份执行此脚本。啪的一下，一个名叫“kernel”的文件就出现在脚本所在的目录中了
 
+### ⚠️ 重要限制
+- **必须**将libmagiskboot.so文件命名为 `libmagiskboot.so`  
+- **必须**将boot镜像命名为 `boot.img`  
+> （当前版本存在硬编码依赖，后续将优化）
+
 # 部分常见问题与回答
 Q:为什么要以shell/root的身份来执行这个脚本？
 
 A:想要解包Boot镜像，需要授予libmagiskboot.so执行权限。普通用户没这个权限，我也不了解System用户。
-
-Q:为什么要保持libmagiskboot.so和Boot镜像的文件名严格遵守上述的名字?
-
-A:这是个缺陷，后面可能修。
 
 Q:为什么shell的命令中要移动文件至/data/local/tmp进行操作，而root直接在脚本所在目录中操作?
 
