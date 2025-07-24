@@ -16,7 +16,12 @@ Yes, it only has these functions. Even a third-party library is needed!
 
 - Secondly, prepare the Boot image you want to unpack and place it in the directory where the script is located. Make sure its name is "boot.img". 
 
-- Finally, execute this script as shell/root. Bang! A file named "kernel" appears in the directory where the script is located. 
+- Finally, execute this script as shell/root. Bang! A file named "kernel" appears in the directory where the script is located.
+
+### ⚠️ Important Restrictions
+- **It is mandatory** to name the libmagiskboot.so file as `libmagiskboot.so` 
+- **It is mandatory** to name the boot image as `boot.img` 
+> The current version has hardcoded dependencies, which will be optimized in the future
 
 # Questions and Answers
 
@@ -34,7 +39,7 @@ A: The shell has limited permissions, and granting execution permissions require
 
 # Note
 
-The cp command in the script uses interactive operation. Try not to execute the script in non-interactive mode. 
+- The cp command in the script uses interactive operation. Try not to execute the script in non-interactive mode. 
 
 # Acquisition 
 - [github](https://github.com/hfhhfhzx/UnpackScript/blob/main/main.sh)
