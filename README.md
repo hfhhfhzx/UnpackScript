@@ -1,5 +1,7 @@
 简体中文 | [English](./README_EN.md)
 
+<a href="https://github.com/hfhhfhzx/UnpackScript/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/hfhhfhzx/UnpackScript?label=stars"></a>
+
 # UnpackScript
 如你所见，这是个烂透了的Android脚本
 
