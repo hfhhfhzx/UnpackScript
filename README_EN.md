@@ -24,9 +24,13 @@ Q: Why should this script be executed as shell/root?
 
 A: To unpack the Boot image, you need to grant the execution permission to libmagiskboot.so. Ordinary users don't have this permission, and I'm not familiar with the System user either. 
 
-Q: Why is it necessary to keep the file names of libmagiskboot.so and the Boot image consistent? 
+Q: Why is it necessary to strictly adhere to the aforementioned names for the file names of libmagiskboot.so and the Boot image?
 
 A: This is a defect. It might be fixed later. 
+
+Q: Why do shell commands move files to /data/local/tmp for operation, while root directly operates in the directory where the script is located? 
+
+A: The shell has limited permissions, and granting execution permissions requires it to be done in a specific directory; root has greater permissions and can do so in any directory.
 
 # Note
 
