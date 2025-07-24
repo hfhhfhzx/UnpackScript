@@ -20,12 +20,16 @@ Q:为什么要以shell/root的身份来执行这个脚本？
 
 A:想要解包Boot镜像，需要授予libmagiskboot.so执行权限。普通用户没这个权限，我也不了解System用户。
 
-Q:为什么要保持libmagiskboot.so和Boot镜像文件名一定?
+Q:为什么要保持libmagiskboot.so和Boot镜像的文件名严格遵守上述的名字?
 
 A:这是个缺陷，后面可能修。
 
+Q:为什么shell的命令中要移动文件至/data/local/tmp进行操作，而root直接在脚本所在目录中操作?
+
+A:shell权限小，授予执行权限需要在特定目录；root权限大，在任意目录都行。
+
 # 注意
-脚本中的cp命令采用了交互式操作，尽量不要使用非交互式方式执行脚本
+- 脚本中的cp命令采用了交互式操作，尽量不要使用非交互式方式执行脚本
 
 # 获取
 - [github](https://github.com/hfhhfhzx/UnpackScript/blob/main/main.sh)
