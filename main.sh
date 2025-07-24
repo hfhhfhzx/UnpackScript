@@ -14,6 +14,7 @@ case "$user" in
         cd /data/local/tmp
         chmod +x boot.so
         ./boot.so unpack boot.img
+        echo "如果输出了带“overwrite”字样的句子，那么回复y覆盖之前的kernel,回复N不覆盖"
         cp -i kernel "$path"
         rm kernel boot.so boot.img
         exit
