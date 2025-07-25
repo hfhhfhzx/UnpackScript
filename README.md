@@ -20,7 +20,34 @@
 ### ⚠️ 重要限制
 - **必须**将libmagiskboot.so文件命名为 `libmagiskboot.so`  
 - **必须**将boot镜像命名为 `boot.img`  
-> （当前版本存在硬编码依赖，后续将优化）
+> 当前版本存在硬编码依赖，后续将优化
+
+# 示例
+- 执行脚本
+```shell
+adb shell sh /storage/emulated/0/Download/main.sh
+```
+> [!Note]
+>
+> “/storage/emulated/0/Download/main.sh”应替换为脚本的实际路径
+>
+>若在手机上执行，应直接以“sh”开头，不要加上“adb shell”前缀
+
+- 输出
+  - 情况1
+```
+(脚本输出)
+
+(解包信息)
+```
+  - 情况2
+```
+(脚本输出)
+
+(解包信息)
+回复y覆盖之前的kernel,回复N不覆盖
+cp: overwrite 'kernel' (y/N):y
+```
 
 # 部分常见问题与回答
 Q:为什么要以shell/root的身份来执行这个脚本？
@@ -35,4 +62,4 @@ A:shell权限小，授予执行权限需要在特定目录；root权限大，在
 - 脚本中的cp命令采用了交互式操作，尽量不要使用非交互式方式执行脚本
 
 # 获取
-- [github](https://github.com/hfhhfhzx/UnpackScript/blob/main/main.sh)
+- [github](./main.sh)
