@@ -34,19 +34,12 @@ adb shell sh /storage/emulated/0/Download/main.sh
 >若在手机上执行，应直接以“sh”开头，不要加上“adb shell”前缀
 
 - 输出
-  - 情况1
 ```
 (脚本输出)
 
 (解包信息)
-```
-  - 情况2
-```
-(脚本输出)
 
-(解包信息)
-回复y覆盖之前的kernel,回复N不覆盖
-cp: overwrite 'kernel' (y/N):y
+(其他)
 ```
 
 # 部分常见问题与回答
@@ -57,9 +50,6 @@ A:想要解包Boot镜像，需要授予libmagiskboot.so执行权限。普通用�
 Q:为什么shell的命令中要移动文件至/data/local/tmp进行操作，而root直接在脚本所在目录中操作?
 
 A:shell权限小，授予执行权限需要在特定目录；root权限大，在任意目录都行。
-
-# 注意
-- 脚本中的cp命令采用了交互式操作，尽量不要使用非交互式方式执行脚本
 
 # 获取
 - [github](./main.sh)
