@@ -38,19 +38,12 @@ adb shell sh /storage/emulated/0/Download/main.sh
 > if you run it on a mobile phone, it should start with "sh" and not "adb shell" prefix
 
 -output
-  - Situation 1
 ```
 (Script Output)
 
 (Unpacking Information)
-```
-  - Situation 2
-```
-(Script Output)
 
-(Unpacking Information)
-回复y覆盖之前的kernel,回复N不覆盖
-cp: overwrite 'kernel' (y/N):y
+(Other)
 ```
 
 # Questions and Answers
@@ -62,10 +55,6 @@ A: To unpack the Boot image, you need to grant the execution permission to libma
 Q: Why do shell commands move files to /data/local/tmp for operation, while root directly operates in the directory where the script is located? 
 
 A: The shell has limited permissions, and granting execution permissions requires it to be done in a specific directory; root has greater permissions and can do so in any directory.
-
-# Note
-
-- The cp command in the script uses interactive operation. Try not to execute the script in non-interactive mode. 
 
 # Acquisition 
 - [github](./main.sh)
