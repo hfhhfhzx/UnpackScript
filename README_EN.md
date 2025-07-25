@@ -25,6 +25,34 @@ Yes, it only has these functions. Even a third-party library is needed!
 - **It is mandatory** to name the boot image as `boot.img` 
 > The current version has hardcoded dependencies, which will be optimized in the future
 
+# Example
+- Execute scripts
+```shell
+adb shell sh /storage/emulated/0/Download/main.sh
+```
+
+> [!Note]
+>
+> "/storage/emulated/0/Download/main.sh" should be replaced with the actual path of the script
+>
+> if you run it on a mobile phone, it should start with "sh" and not "adb shell" prefix
+
+-output
+  - Situation 1
+```
+(Script Output)
+
+(Unpacking Information)
+```
+  - Situation 2
+```
+(Script Output)
+
+(Unpacking Information)
+回复y覆盖之前的kernel,回复N不覆盖
+cp: overwrite 'kernel' (y/N):y
+```
+
 # Questions and Answers
 
 Q: Why should this script be executed as shell/root? 
@@ -40,4 +68,4 @@ A: The shell has limited permissions, and granting execution permissions require
 - The cp command in the script uses interactive operation. Try not to execute the script in non-interactive mode. 
 
 # Acquisition 
-- [github](https://github.com/hfhhfhzx/UnpackScript/blob/main/main.sh)
+- [github](./main.sh)
