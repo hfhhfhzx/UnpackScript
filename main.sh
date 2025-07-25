@@ -24,7 +24,16 @@ case "$user" in
     "root")
         cd "$path"
         chmod +x libmagiskboot.so
+        if [ -f "kernel" ]; then
+        echo "回复y覆盖之前的kernel，回复其他不覆盖。"
+        read -r answer
+        answer=$(echo "$answer" | tr '[:upper:]' '[:lower:]')
+        if [ "$answer" = "y" ]; then
+            ./libmagiskboot.so unpack boot.img
+        fi
+    else
         ./libmagiskboot.so unpack boot.img
+    fi
         exit
         ;;
     "system")
