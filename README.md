@@ -1,4 +1,4 @@
-简体中文 | [English](./README_EN.md) | [繁體中文](./README_zhrTW)
+简体中文 | [English](./README_EN.md) | [繁體中文](./README_zhrTW.md)
 
 <a href="https://github.com/hfhhfhzx/UnpackScript/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/hfhhfhzx/UnpackScript?label=stars"></a>
 
