@@ -47,9 +47,13 @@ Q:为什么要以shell/root的身份来执行这个脚本？
 
 A:想要解包Boot镜像，需要授予libmagiskboot.so执行权限。普通用户没这个权限，我也不了解System用户。
 
-Q:为什么shell的命令中要移动文件至/data/local/tmp进行操作，而root直接在脚本所在目录中操作?
+Q:为什么要把文件移动到/data/local/tmp进行解包操作
 
-A:shell权限小，授予执行权限需要在特定目录；root权限大，在任意目录都行。
+A:兼容性考虑
+
+Q:为什么把kernel移动回脚本目录要用复制+删除的方式，而不是直接移动
+
+A:我这边测试发现直接移动文件会触发SELinux安全策略
 
 # 获取
 - [github](./main.sh)
