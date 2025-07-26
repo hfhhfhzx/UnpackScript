@@ -52,9 +52,13 @@ Q: Why should this script be executed as shell/root?
 
 A: To unpack the Boot image, you need to grant the execution permission to libmagiskboot.so. Ordinary users don't have this permission, and I'm not familiar with the System user either. 
 
-Q: Why do shell commands move files to /data/local/tmp for operation, while root directly operates in the directory where the script is located? 
+Q: Why do I need to move the file to /data/local/tmp for unpacking operation?
 
-A: The shell has limited permissions, and granting execution permissions requires it to be done in a specific directory; root has greater permissions and can do so in any directory.
+A: Compatibility considerations
+
+Q: Why do you need to copy and delete the kernel back to the script directory instead of moving it directly?
+
+A: I have tested and found that moving files directly triggers the SELinux security policy
 
 # Acquisition 
 - [github](./main.sh)
