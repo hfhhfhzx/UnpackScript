@@ -61,4 +61,4 @@ Q: Why do you need to copy and delete the kernel back to the script directory in
 A: I have tested and found that moving files directly triggers the SELinux security policy
 
 # Acquisition 
-- [github](./main.sh)
+- [github](./Script)
