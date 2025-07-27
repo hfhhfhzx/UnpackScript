@@ -56,4 +56,4 @@ Q:為什麼把kernel移動回腳本目錄要用複製+刪除的方式，而不�
 A:我這邊測試發現直接移動文件會觸發SELinux安全策略
 
 # 獲取
-- [github](./main.sh)
+- [github](./Script)
