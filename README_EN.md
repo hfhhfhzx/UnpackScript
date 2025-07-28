@@ -20,6 +20,11 @@ Yes, it only has these functions. Even a third-party library is needed!
 
 - Finally, execute this script as shell/root. Bang! A file named "kernel" appears in the directory where the script is located.
 
+> [!CAUTION]
+> Only download **Magisk** from trusted sources; other sources **may contain malicious files**
+>
+> This project **does not take responsibility** for any misuse of the software
+
 ### ⚠️ Important Restrictions
 - **It is mandatory** to name the libmagiskboot.so file as `libmagiskboot.so` 
 - **It is mandatory** to name the boot image as `boot.img` 
