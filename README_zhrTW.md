@@ -17,6 +17,11 @@
 
 - 最後，以shell/root的身份執行此腳本。啪的一下，一個名叫“kernel”的文件就出現在腳本所在的目錄中了
 
+> [!Caution]
+> 僅從可信渠道下載**Magisk**，其他渠道**可能包含惡意檔案**
+> 
+> 本專案**不承擔**你濫用的後果
+
 ### ⚠️ 重要限制
 - **必須**將libmagiskboot.so文件命名為 `libmagiskboot.so` 
 - **必須**將boot鏡像命名為 `boot.img` 
