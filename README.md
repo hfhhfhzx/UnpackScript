@@ -62,3 +62,13 @@ A:我这边测试发现直接移动文件会触发SELinux安全策略
 
 # 获取
 - [github](./Script)
+
+# Star历史
+
+<a href="https://www.star-history.com/#hfhhfhzx/UnpackScript&Timeline">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=hfhhfhzx/UnpackScript&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=hfhhfhzx/UnpackScript&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=hfhhfhzx/UnpackScript&type=Timeline" />
+ </picture>
+</a>
