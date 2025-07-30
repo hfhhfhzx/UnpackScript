@@ -2,7 +2,10 @@ Warning of complete machine translation ⚠️
 
 [简体中文](./README.md) | English | [繁體中文](./README_zhrTW.md)
 
+<div align="center">
 <a href="https://github.com/hfhhfhzx/UnpackScript/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/hfhhfhzx/UnpackScript?label=stars"></a>
+<a href="https://github.com/hfhhfhzx/UnpackScript/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/hfhhfhzx/UnpackScript"></a>
+</div>
 
 # UnpackScript
 
