@@ -8,17 +8,15 @@
 # UnpackScript
 <p>如你所见，这是个烂透了的Android脚本
 
-暂停维护
-
 # 这是什么?
-一个使用libmagiskboot.so来解包Boot镜像的脚本
+一个使用libmagiskboot.so来解包Boot和init_boot镜像的脚本
 
 是的，它只有这些作用。甚至需要一个第三方库！
 
 # 如何使用?
 - 首先，我们需要libmagiskboot.so，并将其置于脚本所在目录中，不要修改它的文件名。这个文件在[Magisk](https://github.com/topjohnwu/Magisk)的构建中。没有它，一切都无法进行。
 
-- 其次，准备好你想要解包的Boot镜像，并将其置于脚本所在目录中，确保它的名字为“boot.img”
+- 其次，准备好你想要解包的Boot（init_boot）镜像，并将其置于脚本所在目录中，确保它的名字为“boot.img(init_boot.img)”
 
 - 最后，以shell/root的身份执行此脚本。啪的一下，一个名叫“kernel”的文件就出现在脚本所在的目录中了
 
@@ -57,11 +55,11 @@ Q:为什么要以shell/root的身份来执行这个脚本？
 
 A:想要解包Boot镜像，需要授予libmagiskboot.so执行权限。普通用户没这个权限，我也不了解System用户。
 
-Q:为什么要把文件移动到/data/local/tmp进行解包操作
+Q:为什么要把文件移动到/data/local/tmp进行解包操作(shell)
 
 A:兼容性考虑
 
-Q:为什么把kernel移动回脚本目录要用复制+删除的方式，而不是直接移动
+Q:为什么把kernel(ramdisk.cpio)移动回脚本目录要用复制+删除的方式，而不是直接移动
 
 A:我这边测试发现直接移动文件会触发SELinux安全策略
 

@@ -61,3 +61,13 @@
   shell:✅
   
   root:✅
+  
+  
+- [7.sh](./7.sh)（基于1修改）
+
+  支持解包init_boot(内核5.15+)
+  
+  shell:✅
+  
+  root:✅
+  
