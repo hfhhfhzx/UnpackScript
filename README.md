@@ -14,7 +14,7 @@
 是的，它只有这些作用。甚至需要一个第三方库！
 
 # 如何使用?
-- 首先，我们需要libmagiskboot.so，并将其置于脚本所在目录中，不要修改它的文件名。这个文件在[Magisk](https://github.com/topjohnwu/Magisk)的构建中。没有它，一切都无法进行。
+- 首先，我们需要libmagiskboot.so，并将其置于脚本所在目录中，不要修改它的文件名。这个文件在[Magisk](https://github.com/topjohnwu/Magisk)的构建中（Magisk-vxx.x.apk/lib/arm64-v8a/libmagiskboot.so）。没有它，一切都无法进行。
 
 - 其次，准备好你想要解包的Boot（init_boot）镜像，并将其置于脚本所在目录中，确保它的名字为“boot.img(init_boot.img)”
 
