@@ -51,7 +51,7 @@ adb shell sh /storage/emulated/0/Download/main.sh
 ```
 
 # 部分常见问题与回答
-Q:为什么要以shell/root的身份来执行这个脚本？
+Q:为什么部分脚本要以root/shell的身份来执行这个脚本？
 
 A:想要解包Boot镜像，需要授予libmagiskboot.so执行权限。普通用户没这个权限，我也不了解System用户。
 
