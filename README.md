@@ -1,4 +1,4 @@
-简体中文 | <del>[English](./README_EN.md) | [繁體中文](./README_zhrTW.md)</del>(暂停支持）
+简体中文 | ~~[English](./README_EN.md) | [繁體中文](./README_zhrTW.md)~~(暂停支持）
 
 <div align="center">
 <a href="https://github.com/hfhhfhzx/UnpackScript/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/hfhhfhzx/UnpackScript?label=stars"></a>
@@ -6,7 +6,9 @@
 </div>
 
 # UnpackScript
-<p>如你所见，这是个烂透了的Android脚本
+如你所见，这是个烂透了的Android脚本
+
+[下载](#获取)
 
 # 这是什么?
 一个使用libmagiskboot.so来解包Boot和init_boot镜像的脚本
