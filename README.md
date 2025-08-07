@@ -2,8 +2,8 @@
 
 <div align="center">
 <a href="https://github.com/hfhhfhzx/UnpackScript/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/hfhhfhzx/UnpackScript?label=stars"></a>
-<a href="https://github.com/hfhhfhzx/UnpackScript/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/hfhhfhzx/UnpackScript"></a>
-<a href="https://github.com/hfhhfhzx/UnpackScript/discussions"><img alt="GitHub discussions" src="https://img.shields.io/github/discussions/hfhhfhzx/UnpackScript"></a>
+<a href="https://github.com/hfhhfhzx/UnpackScript/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/hfhhfhzx/UnpackScript?label=issues"></a>
+<a href="https://github.com/hfhhfhzx/UnpackScript/discussions"><img alt="GitHub discussions" src="https://img.shields.io/github/discussions/hfhhfhzx/UnpackScript?label=discussions"></a>
 </div>
 
 # UnpackScript
