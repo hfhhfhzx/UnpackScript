@@ -6,7 +6,6 @@
 <a href="https://github.com/hfhhfhzx/UnpackScript/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/hfhhfhzx/UnpackScript"></a>
 <a href="https://github.com/hfhhfhzx/UnpackScript/discussions"><img alt="GitHub discussions" src="https://img.shields.io/github/discussions/hfhhfhzx/UnpackScript"></a>
 <a href="https://github.com/hfhhfhzx/UnpackScript/pulls"><img alt="GitHub pulls" src="https://img.shields.io/github/pulls/hfhhfhzx/UnpackScript"></a>
-<a href="https://github.com/hfhhfhzx/UnpackScript/graphs/contributors"><img src="https://contrib.rocks/image?repo=hfhhfhzx/UnpackScript"></a>
 </div>
 
 # 导航
@@ -90,3 +89,7 @@ A:我这边测试发现直接移动文件会触发SELinux安全策略
 # Star历史
 
 <a href="https://www.star-history.com/#hfhhfhzx/UnpackScript&Timeline"> <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=hfhhfhzx/UnpackScript&type=Timeline"></a>
+
+# 贡献者
+
+<a href="https://github.com/hfhhfhzx/UnpackScript/graphs/contributors"><img src="https://contrib.rocks/image?repo=hfhhfhzx/UnpackScript"></a>
