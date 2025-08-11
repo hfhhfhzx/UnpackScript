@@ -3,6 +3,7 @@
 <div align="center">
 <a href="https://github.com/hfhhfhzx/UnpackScript/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/hfhhfhzx/UnpackScript?label=stars"></a>
 <a href="https://github.com/hfhhfhzx/UnpackScript/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/hfhhfhzx/UnpackScript"></a>
+![GitHub License](https://img.shields.io/github/license/maotoumao/hfhhfhzx/UnpackScript)
 <a href="https://github.com/hfhhfhzx/UnpackScript/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/hfhhfhzx/UnpackScript"></a>
 <a href="https://github.com/hfhhfhzx/UnpackScript/discussions"><img alt="GitHub discussions" src="https://img.shields.io/github/discussions/hfhhfhzx/UnpackScript"></a>
 <a href="https://github.com/hfhhfhzx/UnpackScript/pulls"><img alt="GitHub pulls" src="https://img.shields.io/github/pulls/hfhhfhzx/UnpackScript"></a>
@@ -24,6 +25,8 @@
 [获取](#获取)
 
 [Star历史](#Star历史)
+
+[贡献者](#贡献者)
 
 # UnpackScript
 如你所见，这是个烂透了的Android脚本
@@ -93,3 +96,13 @@ A:我这边测试发现直接移动文件会触发SELinux安全策略
 # 贡献者
 
 <a href="https://github.com/hfhhfhzx/UnpackScript/graphs/contributors"><img src="https://contrib.rocks/image?repo=hfhhfhzx/UnpackScript"></a>
+
+# 许可证
+
+[MIT LICENSE](./LICENSE)
+
+> [!WARNING]
+>
+> 严格遵循MIT许可证
+
+
