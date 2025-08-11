@@ -3,13 +3,13 @@
 # 导航
 [简介](#UnpackScript)
 
-[更详细的简绍](#这是什么?)
+[更详细的简绍](#这是什么)
 
-[使用方法](#如何使用?)
+[使用方法](#如何使用)
 
-[限制](#⚠️重要限制)
+[限制](#重要限制)
 
-[示例](示例)
+[示例](#示例)
 
 [Q&A](#部分常见问题与回答)
 
@@ -20,12 +20,12 @@
 # UnpackScript
 如你所见，这是个烂透了的Android脚本
 
-# 这是什么?
+# 这是什么
 一个使用libmagiskboot.so来解包Boot和init_boot镜像的脚本
 
 是的，它只有这些作用。甚至需要一个第三方库！
 
-# 如何使用?
+# 如何使用
 - 首先，我们需要libmagiskboot.so，并将其置于脚本所在目录中，不要修改它的文件名。这个文件在[Magisk](https://github.com/topjohnwu/Magisk)的构建中（Magisk-vxx.x.apk/lib/arm64-v8a/libmagiskboot.so）。没有它，一切都无法进行。
 
 - 其次，准备好你想要解包的Boot（init_boot）镜像，并将其置于脚本所在目录中，确保它的名字为“boot.img(init_boot.img)”
@@ -37,7 +37,7 @@
 >
 > 本项目**不承担**你乱用的后果
 
-### ⚠️重要限制
+### 重要限制
 - **必须**将libmagiskboot.so文件命名为 `libmagiskboot.so`  
 - **必须**将boot镜像命名为 `boot.img`  
 > 当前版本存在硬编码依赖，后续将优化
