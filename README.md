@@ -1,15 +1,24 @@
 简体中文 | ~~[English](./README_EN.md) | [繁體中文](./README_zhrTW.md)~~(暂停支持）
 
-<div align="center">
-<a href="https://github.com/hfhhfhzx/UnpackScript/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/hfhhfhzx/UnpackScript?label=stars"></a>
-<a href="https://github.com/hfhhfhzx/UnpackScript/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/hfhhfhzx/UnpackScript?label=issues"></a>
-<a href="https://github.com/hfhhfhzx/UnpackScript/discussions"><img alt="GitHub discussions" src="https://img.shields.io/github/discussions/hfhhfhzx/UnpackScript?label=discussions"></a>
-</div>
+# 导航
+[简介](#UnpackScript)
+
+[更详细的简绍](#这是什么?)
+
+[使用方法](#如何使用?)
+
+[限制](#⚠️重要限制)
+
+[示例](示例)
+
+[Q&A](#部分常见问题与回答)
+
+[获取](#获取)
+
+[Star历史](#Star历史)
 
 # UnpackScript
 如你所见，这是个烂透了的Android脚本
-
-[下载](#获取)
 
 # 这是什么?
 一个使用libmagiskboot.so来解包Boot和init_boot镜像的脚本
@@ -28,7 +37,7 @@
 >
 > 本项目**不承担**你乱用的后果
 
-### ⚠️ 重要限制
+### ⚠️重要限制
 - **必须**将libmagiskboot.so文件命名为 `libmagiskboot.so`  
 - **必须**将boot镜像命名为 `boot.img`  
 > 当前版本存在硬编码依赖，后续将优化
