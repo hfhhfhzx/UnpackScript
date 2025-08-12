@@ -1,6 +1,8 @@
 简体中文 | ~~[English](./README_EN.md) | [繁體中文](./README_zhrTW.md)~~(暂停支持）
 
 <div align="center">
+<a href="https://socialify.git.ci/hfhhfhzx/UnpackScript/image?font=Rokkitt&forks=1&issues=1&language=1&name=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Auto"><img alt="GitHub" src="https://socialify.git.ci/hfhhfhzx/UnpackScript/image?font=Rokkitt&forks=1&issues=1&language=1&name=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Auto"></a>
+
 <a href="https://github.com/hfhhfhzx/UnpackScript/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/hfhhfhzx/UnpackScript?label=stars"></a>
 <a href="https://github.com/hfhhfhzx/UnpackScript/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/hfhhfhzx/UnpackScript"></a>
 <a href="https://github.com/hfhhfhzx/UnpackScript/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/hfhhfhzx/UnpackScript"></a>
